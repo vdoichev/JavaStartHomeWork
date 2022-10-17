@@ -1,13 +1,13 @@
 package Lesson24;
 
-abstract class Fish extends Animal{
+public abstract class Fish extends Animal{
 
-    Fish(String name){
+    public Fish(String name){
         super(name);
         this.name = name;
     }
 
-    void sleep(){
+    public void sleep(){
         System.out.println("Vsegda interesno nabludat, kak spat ribi");
     }
 

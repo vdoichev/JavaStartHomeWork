@@ -1,12 +1,12 @@
 package Lesson24;
 
-abstract class Animal {
-    String name;
-    Animal(String name){
+public abstract class Animal {
+    public String name;
+    public Animal(String name){
         this.name = name;
     }
 
-    abstract void eat();
+    public abstract void eat();
 
-    abstract void sleep();
+    public abstract void sleep();
 }

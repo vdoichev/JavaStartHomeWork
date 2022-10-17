@@ -1,7 +1,7 @@
 package Lesson24;
 
 public class Mechenosec extends Fish {
-    Mechenosec(String name) {
+    public Mechenosec(String name) {
         super(name);
         this.name = name;
     }

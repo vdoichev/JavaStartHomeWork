@@ -1,7 +1,7 @@
 package Lesson24;
 
 public class Lev extends Mammal{
-    Lev(String name){
+    public Lev(String name){
         super(name);
         this.name = name;
     }
