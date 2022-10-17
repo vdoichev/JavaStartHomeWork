@@ -1,10 +1,14 @@
 package Lesson24;
 
-public abstract class Mammal extends Animal implements Speakable{
-    public Mammal(String name){
+abstract class Mammal extends Animal implements Speakable{
+    Mammal(String name){
         super(name);
         this.name = name;
     }
 
-    public abstract void run();
+    abstract void run();
+
+    public void speak(){
+        //System.out.println(name+" sings");
+    }
  }

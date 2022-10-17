@@ -1,7 +1,7 @@
 package Lesson24;
 
 public class Pingvin extends Bird implements Speakable{
-    public Pingvin(String name){
+    Pingvin(String name){
         super(name);
         this.name = name;
     }
